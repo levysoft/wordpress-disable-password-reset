@@ -1,6 +1,13 @@
 # WordPress Disable Password Reset (Italiano)
 
+[ [English](README.md) | [Italiano](README.it.md) ]
+
 Un plugin per WordPress estremamente leggero e senza configurazione per disabilitare completamente la funzionalità di recupero password.
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![WordPress](https://img.shields.io/badge/wordpress-4.0%2B-green.svg)
+![PHP](https://img.shields.io/badge/php-5.6%2B-purple.svg)
+![License](https://img.shields.io/badge/license-GPLv2%2B-red.svg)
 
 Questo plugin è nato dall'esigenza di bloccare tentativi automatizzati di reset (bot) e risolvere il problema delle email di reset generate da indirizzi IP interni (come 127.0.0.2).
 
