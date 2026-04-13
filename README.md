@@ -1,6 +1,12 @@
 # WordPress Disable Password Reset
+[ [English](README.md) | [Italiano](README.it.md) ]
 
 A lightweight, zero-overhead WordPress plugin that completely disables the password reset functionality. 
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![WordPress](https://img.shields.io/badge/wordpress-4.0%2B-green.svg)
+![PHP](https://img.shields.io/badge/php-5.6%2B-purple.svg)
+![License](https://img.shields.io/badge/license-GPLv2%2B-red.svg)
 
 This plugin is designed for single-user blogs or sites where security is a priority and you want to prevent automated scripts from triggering password reset emails.
 
