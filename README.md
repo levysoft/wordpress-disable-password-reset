@@ -16,15 +16,17 @@ This plugin applies a 4-layer protection system:
 
 ## Installation
 
-1. Download the `wordpress-disable-password-reset.php` file.
-2. Create a folder named `wordpress-disable-password-reset`.
-3. Place the PHP file inside that folder.
-4. Zip the folder and upload it via the WordPress Admin (**Plugins** > **Add New**).
-5. Activate the plugin.
+The easiest way to install the plugin is to use the pre-built zip file:
+
+1. Go to the [Releases](https://github.com/levysoft/wordpress-disable-password-reset/releases) page.
+2. Download the `wordpress-disable-password-reset.zip` file from the latest release.
+3. In your WordPress Admin, go to **Plugins** > **Add New** > **Upload Plugin**.
+4. Choose the downloaded zip file and click **Install Now**.
+5. Click **Activate Plugin**.
 
 ## Manual Password Reset
 
-If you need to change your password while this plugin is active, you must do it via the database:
+Since this plugin disables the recovery UI, if you need to change your password you must do it via the database:
 1. Open **phpMyAdmin**.
 2. Go to the `wp_users` table.
 3. Edit your user, select **MD5** for the `user_pass` field, and type your new password.
