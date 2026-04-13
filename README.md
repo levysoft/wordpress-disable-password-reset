@@ -31,3 +31,8 @@ Since this plugin disables the recovery UI, if you need to change your password 
 2. Go to the `wp_users` table.
 3. Edit your user, select **MD5** for the `user_pass` field, and type your new password.
 4. Save and log in.
+
+## Documentation & Articles
+For a deep dive into why this plugin was created and an analysis of the "127.0.0.2" reset requests, check out these articles:
+* **English:** [Medium - Disable Password Reset in WordPress](https://levysoft.medium.com/disable-password-reset-in-wordpress-causes-analysis-and-solution-f45f51c17cbf)
+* **Italiano:** [Levysoft - Disabilitare il reset password in WordPress](https://www.levysoft.it/archivio/2026/04/12/disabilitare-il-reset-password-in-wordpress-cause-analisi-e-soluzione/)
